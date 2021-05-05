@@ -1,106 +1,98 @@
-* {
-    box-sizing: border-box;
-}
-
-html {
-    scroll-behavior: smooth;
-}
 
 body {
-    font-family: 'Lobster', cursive;
-    background-color: #eeeeee;
-    padding: 10px;
+    font-family: 'Dancing Script', cursive;
 }
+
 
 header {
-    padding: 1%;
-    background-color: rgb(45, 45, 45);
+    background: rgb(68, 68, 68);
+    height: 100px;
+    margin-bottom: 30px;
 }
 
-header nav {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 30px;
+
+nav {
+    width: 960px;
+    margin: 0px auto;
 }
 
-header ul img {
-    margin-left: 100px;
-    height: 50px;
-    float: left;
-}
-
-header nav ul {
-    list-style-type: none;
-    overflow: hidden;
-}
-
-header nav ul li {
-    float: left;
+nav img {
     margin-top: 15px;
-    margin-left: 120px;
-}
-
-nav ul li a {
-    color: #7c7c7c;
-    text-decoration: none;
-    text-align: center;
-    padding: 14px 16px;
-}
-
-#top {
-    padding: 25px;
-}
-
-#middle {
-    padding-left: 25px;
-    padding-right: 25px;
-}
-
-#bot {
-    padding: 20px;
-}
-
-.biger {
-    width: 100%;
-}
-
-.normal {
-    width: 100%;
-}
-
-.card1{
+    margin-right: 30px;
     float: left;
 }
-.card2{
-    margin-left: 175px;
-    margin-right: 100px;
+
+nav li {
+    display: inline-block;
+    margin-top: 45px;
+    margin-right: 70px;
+}
+
+a {
+    color: rgb(136, 136, 136);
+    text-decoration: none;
+}
+
+
+main {
+    width: 960px;
+    margin: 0px auto;
+}
+
+
+
+main li {
+    
+    float: left;
+    margin: 30px 30px 30px 0px;
+}
+
+
+main li:last-child{
+    margin-right: 0px;
+}
+
+
+
+section img {
+    float: left;
+}
+
+ 
+section div {
+    width: calc(50% - 30px);
+    float: left;
+    padding-left: 30px;
+    margin-bottom: 30px;
     
 }
-.card3{
-    float: right;
+
+section h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+section p {
+    height: 322px;
+    line-height: 22px;
+    margin-bottom: 10px;
+}
+
+section button {
+    font-family: 'Dancing Script', cursive;
+    border: none;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
+    padding: 10px 30px;
+    border-radius: 3px;
+    transition: 350ms;
+    cursor: pointer;
 }
 
 
-.left {
-    width: 50%;
-    float: left;
-}
-
-.right {
-    width: 50%;
-    float: right;
-}
-
-h2{
-    font-size: larger;
-    font-weight: bolder;
-}
-
-footer {
-    clear: both;
-    background-color: rgb(45, 45, 45);
-    margin-top: 20px;
-    padding: 20px;
-    width: 100%;
-    height: 100px;
+footer{
+    clear : both;
+    height: 150px;
+    background: rgb(68, 68, 68);
 }
