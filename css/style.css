@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Lobster', cursive;
+    background-color: #eeeeee;
+    padding: 10px;
+}
+
+header {
+    padding: 1%;
+    background-color: rgb(45, 45, 45);
+}
+
+header nav {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+
+header ul img {
+    margin-left: 100px;
+    height: 50px;
+    float: left;
+}
+
+header nav ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+header nav ul li {
+    float: left;
+    margin-top: 15px;
+    margin-left: 120px;
+}
+
+nav ul li a {
+    color: #7c7c7c;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+#top {
+    padding: 25px;
+}
+
+#middle {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+#bot {
+    padding: 20px;
+}
+
+.biger {
+    width: 100%;
+}
+
+.normal {
+    width: 100%;
+}
+
+.card1{
+    float: left;
+}
+.card2{
+    margin-left: 175px;
+    margin-right: 100px;
+    
+}
+.card3{
+    float: right;
+}
+
+
+.left {
+    width: 50%;
+    float: left;
+}
+
+.right {
+    width: 50%;
+    float: right;
+}
+
+h2{
+    font-size: larger;
+    font-weight: bolder;
+}
+
+footer {
+    clear: both;
+    background-color: rgb(45, 45, 45);
+    margin-top: 20px;
+    padding: 20px;
+    width: 100%;
+    height: 100px;
+}
