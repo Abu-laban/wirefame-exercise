@@ -73,6 +73,7 @@ section h2 {
 }
 
 section p {
+    overflow: scroll;
     height: 322px;
     line-height: 22px;
     margin-bottom: 10px;
@@ -90,6 +91,9 @@ section button {
     cursor: pointer;
 }
 
+section button:hover {
+    background: rgb(255, 0, 0);
+}
 
 footer{
     clear : both;
